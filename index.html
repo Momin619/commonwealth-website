@@ -7,7 +7,7 @@
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    cxc
+
     <!-- Inter Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
@@ -17,7 +17,25 @@
     <!-- Apply font -->
     <style>
       body {
-        font-family: "Inter", sans-serif;
+        font-family: "Gill Sans", "Lucida Sans", sans-serif !important;
+      }
+      .heading {
+        font-size: 70px !important;
+        color: #1e1e1e !important;
+      }
+
+      .sub-heading {
+        font-size: 38px !important;
+        color: #1e1e1e !important;
+      }
+
+      #main {
+        font-size: 18px !important;
+        color: #1e1e1e !important;
+      }
+      .points {
+        font-size: 18px !important;
+        color: #1e1e1e !important;
       }
     </style>
 
@@ -28,26 +46,23 @@
   <body class="bg-white text-gray-900">
     <!-- Header -->
     <header class="bg-[#FFCC00] text-black py-16 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-3">
+      <h1 class="text-4xl md:text-5xl font-bold mb-3 heading">
         Tips for Financial Cybersecurity
       </h1>
-      <p class="text-lg md:text-xl text-gray-800">
+      <p class="text-lg md:text-xl text-gray-800 sub-heading">
         Protect your financial information with simple, effective steps.
       </p>
     </header>
 
     <!-- Main -->
-    <main class="max-w-6xl mx-auto px-6 py-16">
+    <main class="max-w-6xl mx-auto px-6 py-16" id="main">
       <!-- Section Title -->
-      <h2 class="text-3xl md:text-4xl font-semibold mb-12 text-center">
-        Essential Tips for Financial Cybersecurity
-      </h2>
 
       <!-- Tips List -->
       <div class="space-y-8">
         <div>
           <h3 class="text-xl font-semibold mb-2">Watch What You Click</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Avoid clicking links or downloading attachments from unknown emails.
             Always go directly to the official website or app to verify
             messages.
@@ -56,7 +71,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Use Strong Passwords</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Create unique, strong passwords for each account. Consider using a
             password manager to store them securely.
           </p>
@@ -66,7 +81,7 @@
           <h3 class="text-xl font-semibold mb-2">
             Enable Multifactor Authentication (MFA)
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Add an extra layer of protection beyond just a password, like a code
             sent to your phone or biometric verification.
           </p>
@@ -74,7 +89,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Maintain Device Security</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Install antivirus, anti-spam, and anti-spyware software. Keep your
             system and apps updated to defend against new threats.
           </p>
@@ -82,7 +97,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Use Your Own Device</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Avoid accessing financial accounts from public or shared computers.
             If necessary, clear the cache and browsing history afterward.
           </p>
@@ -90,7 +105,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Browse Carefully</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Only log into accounts on secure HTTPS websites. Always log out
             fully after use.
           </p>
@@ -98,7 +113,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Be Safe on Wi-Fi</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Avoid public Wi-Fi for financial transactions. Secure your home
             network with strong encryption and a robust password.
           </p>
@@ -106,7 +121,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Review All Correspondence</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Regularly check statements and account activity. Report any
             unauthorized or suspicious activity immediately.
           </p>
@@ -116,7 +131,7 @@
           <h3 class="text-xl font-semibold mb-2">
             Use Security Software That Updates Automatically
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Set antivirus and system software to update automatically to defend
             against new malware and vulnerabilities.
           </p>
@@ -126,7 +141,7 @@
           <h3 class="text-xl font-semibold mb-2">
             Treat Personal Information Like Cash
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Only share sensitive details such as Social Security numbers or card
             information when absolutely necessary and only with trusted sites.
           </p>
@@ -134,7 +149,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Check Company Legitimacy</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Research unfamiliar companies or offers before providing information
             or engaging with them.
           </p>
@@ -144,7 +159,7 @@
           <h3 class="text-xl font-semibold mb-2">
             Give Personal Information Only on Encrypted Sites
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Ensure the site uses HTTPS before submitting any sensitive
             information.
           </p>
@@ -152,7 +167,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Protect Your Passwords</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Use long, complex passwords with a mix of letters, numbers, and
             symbols. Avoid reusing passwords and never share them.
           </p>
@@ -160,7 +175,7 @@
 
         <div>
           <h3 class="text-xl font-semibold mb-2">Back Up Your Files</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 points">
             Keep copies of important data on removable media or external drives
             so you can recover information if your system is compromised.
           </p>
