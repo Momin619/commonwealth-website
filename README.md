@@ -4,7 +4,7 @@ Built as part of the **Commonwealth Bank Introduction to Software Engineering Jo
 
 A simple, static informational webpage that shares practical tips to help people protect their financial information online.
 
-📜 **[View Completion Certificate](./certificate//CommonWealth-Website-Certificate.png)**
+**[View Completion Certificate](./certificate//CommonWealth-Website-Certificate.png)**
 
 ⚠️ This is a simulation project built for learning purposes.
 
