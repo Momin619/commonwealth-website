@@ -1,12 +1,12 @@
-# 🏦 Tips for Financial Cybersecurity
+# Tips for Financial Cybersecurity
 
-> Built as part of the **Commonwealth Bank Introduction to Software Engineering Job Simulation** on [Forage](https://www.theforage.com/simulations/commonwealth-bank/intro-software-engineering-m2ma).
+Built as part of the **Commonwealth Bank Introduction to Software Engineering Job Simulation** on [Forage](https://www.theforage.com/simulations/commonwealth-bank/intro-software-engineering-m2ma).
 
 A simple, static informational webpage that shares practical tips to help people protect their financial information online.
 
 📜 **[View Completion Certificate](./certificate//CommonWealth-Website-Certificate.png)**
 
-> ⚠️ This is a simulation project built for learning purposes.
+⚠️ This is a simulation project built for learning purposes.
 
 ---
 
